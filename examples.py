@@ -60,3 +60,33 @@ print(new_class)
 print(f"{new_class!r}")
 
 
+# Multiline Strings
+
+name = 'Python3'
+profession = 'program'
+affilitatition = 'programming language'
+
+message = (
+    f'Hi {name}.  '
+    f"You are a {profession}.   "
+    f"You are a {affilitatition}."
+    )
+
+print(message)
+
+message = f"test. " \
+            f"test..." \
+            f"test....."
+
+print(message)
+
+
+message = f"""
+        Hi {name}.
+        You are in {profession}.
+        You are a {affilitatition}.
+"""
+
+print(message)
+
+
